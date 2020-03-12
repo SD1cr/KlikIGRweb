@@ -1,0 +1,54 @@
+/*#####################
+Additional Styles (required)
+######################*/
+.carousel-indicators {
+    bottom:-40px;
+    left:0;
+    width:100%;
+    background:#ccc;
+    padding: 6px 0px;
+    margin-left:0;
+    border-top:2px solid #fff;
+}
+.carousel-indicators li {
+    width:12px;
+    height:12px;
+    background:#fff;
+    border-color:#fff;
+
+}
+.carousel-indicators .active {
+    width:14px;
+    height:14px;
+    background:#428bca;
+    border-color:#428bca;
+}
+.carousel-inner .thumbnail {
+    margin-bottom:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+.carousel-inner .caption {
+    background:#ddd;
+    padding: 10px;   
+}
+
+.arrow-toggle.collapsed .icon-arrow-down
+{
+    display: none;
+}
+
+.arrow-toggle .icon-arrow-down
+{
+    display: inline-block;
+}
+
+.arrow-toggle.collapsed .icon-arrow-up
+{
+    display: inline-block;
+}
+
+.arrow-toggle .icon-arrow-up
+{
+    display: none;
+}

